@@ -5372,6 +5372,7 @@ p.big {
   }
 }
 
+
 @media (min-width:1200px) {
   .container {
     width: 1170px
@@ -8389,7 +8390,8 @@ header .middle h4 {
 header .top {
   color: #000;
   background-color: #fff;
-  padding: 10px 0
+  padding: 10px 0;
+  border-bottom: 2px solid #000;
 }
 
 header .top a {
@@ -9744,7 +9746,7 @@ footer img {
   position: absolute;
   left: 5px;
   top: 5px;
-  color: #c7c7c7;
+  color: #000;
 }
 
 
@@ -9757,11 +9759,13 @@ footer img {
 }
 
 .bgtelephone::before {
-  content: "\f095"
+  content: "\f879";
+  font-family: "Font Awesome 5 Free";
 }
 
 .bgemail::before {
-  content: "\0e0";
+  content: "\f0e0";
+  font-family: "Font Awesome 5 Free";
 }
 
 .bgparticulier::before {
@@ -9773,7 +9777,8 @@ footer img {
 }
 
 .bgmessage::before {
-  content: "\f040"
+  content: "\f044";
+  font-family: "Font Awesome 5 Free";
 }
 
 .txtcenter {

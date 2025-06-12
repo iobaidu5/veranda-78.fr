@@ -48,36 +48,39 @@ $(window).scroll(function () {
   }
 });
 
-// $(document).ready(function () {
 
-//   $('.bxslider').bxSlider({
-//     minSlides: 1,
-//     auto: true,
-//     moveSlides: 1,
-//     speed: 1000,
-//     pause: 5000,
-//     maxSlides: 1,
-//     slideWidth: 980,
-//     slideMargin: 0,
-//     touchEnabled: true,
-//     controls: false,
-//     infiniteLoop: true,
-//   });
+$(document).ready(function () {
 
-//   $('.bxslider2').bxSlider({
-//     minSlides: 3,
-//     auto: true,
-//     moveSlides: 1,
-//     speed: 1000,
-//     pause: 3000,
-//     maxSlides: 5,
-//     slideWidth: 100,
-//     slideMargin: 20,
-//     touchEnabled: true,
-//     controls: false,
-//     infiniteLoop: true,
-//     pager: false
-//   });
+  $('.bxslider').bxSlider({
+    minSlides: 1,
+    auto: true,
+    moveSlides: 1,
+    speed: 1000,
+    pause: 5000,
+    maxSlides: 1,
+    slideWidth: 980,
+    slideMargin: 0,
+    touchEnabled: true,
+    controls: false,
+    infiniteLoop: true,
+  });
+
+  $('.bxslider2').bxSlider({
+    minSlides: 3,
+    auto: true,
+    moveSlides: 1,
+    speed: 1000,
+    pause: 3000,
+    maxSlides: 5,
+    slideWidth: 100,
+    slideMargin: 20,
+    touchEnabled: true,
+    controls: false,
+    infiniteLoop: true,
+    pager: false
+  });
+
+});
 
 //   var $lightbox = $('#lightbox');
 
@@ -105,6 +108,7 @@ $(window).scroll(function () {
 //     $lightbox.find('.close').removeClass('hidden');
 //   });
 // });
+
 
 
 var conf_name = "veranda-78.fr";
